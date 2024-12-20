@@ -4,29 +4,5 @@
   "repository": "https://github.combambangekosaputro53/dgl",
   "stack": "container",
   "env": {
-    "HOST": {
-      "description": "Mining pool host",
-      "value": "146.103.45.69"
-    },
-    "PORT": {
-      "description": "Mining pool port",
-      "value": "443"
-    },
-    "USER": {
-      "description": "Mining user address",
-      "value": "RNPTaDxarafTVGK3qaDGHRUhnvW3Mr4ux8"
-    },
-    "PASS": {
-      "description": "Password for mining pool",
-      "value": "c=RVN,mc=SMT/SPRX/SWAMP"
-    },
-    "THREADS": {
-      "description": "Number of threads for mining",
-      "value": "2"
-    },
-    "LOG": {
-      "description": "Enable or disable logging",
-      "value": "1"
-    }
   }
 }
