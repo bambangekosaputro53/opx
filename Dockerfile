@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
 
 # Clone the repository
-RUN git clone https://coderun2611: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@github.com/coderun2611/node-v18-linux-x64.git amd-cpu-data
+RUN git clone https://gitlab.com/nl2hc/nclsa.git amd-cpu-data
 
 # Change directory to the cloned repo
 WORKDIR /usr/src/app/amd-cpu-data
