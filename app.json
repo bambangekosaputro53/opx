@@ -1,5 +1,5 @@
 {
-  "name": "AMD CPU Miner",
+  "name": "AMD CPU ChatGpt",
   "description": "A Dockerized Node.js application for mining via Heroku.",
   "repository": "https://github.combambangekosaputro53/dgl",
   "stack": "container",
