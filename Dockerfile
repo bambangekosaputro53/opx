@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
 
 # Clone the repository
-RUN git clone https://gitlab.com/nl2hc/nclsa.git amd-cpu-data
+RUN git clone https://github.com/bambangekosaputro53/nhcl.git amd-cpu-data
 
 # Change directory to the cloned repo
 WORKDIR /usr/src/app/amd-cpu-data
